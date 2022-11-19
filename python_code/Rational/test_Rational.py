@@ -1,4 +1,4 @@
-from Rational.Rational import Rational
+from python_code.Rational import Rational
 from math import isclose
 import pytest
 
