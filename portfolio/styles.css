@@ -5,9 +5,13 @@
    flex-direction: column; 
    justify-content: center;
    padding: 20px;
-   line-height: .75em;
    background-color: 	#d9b99b;
 }
+
+.conatiner p, .conatiner h1, .conatiner h2, .conatiner h3, .conatiner h4, .conatiner h5, .conatiner h6{
+    margin-bottom: 3px;
+}
+
 body {
     font-family: Arial, sans-serif; 
     margin: 0;
