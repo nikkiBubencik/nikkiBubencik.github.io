@@ -1,0 +1,41 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif; /* Example font-family */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Example background color */
+    color: white; /* Text color for the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 1.5rem; /* Example font size */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: #555; /* Example hover background color */
+}
