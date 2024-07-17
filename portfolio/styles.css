@@ -1,15 +1,23 @@
 /* styles.css */
 
 .container {
-   display: flex;
-   flex-direction: column; 
-   justify-content: center;
-   padding: 20px;
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; 
+    justify-items: center;
 }
-.container > div {
+
+.item {
+    background-color: #d9b99b;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* .container > div {
   width:33%;
    background-color: 	#d9b99b;
-}
+} */
 .conatiner p, .conatiner h1, .conatiner h2, .conatiner h3, .conatiner h4, .conatiner h5, .conatiner h6{
     margin-bottom: 3px;
    margin-top:1 px;
