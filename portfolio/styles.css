@@ -1,14 +1,15 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif; /* Example font-family */
-    margin: 10px;
-    padding: 0;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 5%;
+    background-color: #eed9c4;
 }
 
 header {
-    background-color: #333; /* Example background color */
-    color: white; /* Text color for the header */
+    background-color: #333; 
+    color: white; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +17,7 @@ header {
 }
 
 .logo {
-    font-size: 1.5rem; /* Example font size */
+    font-size: 1.5rem; 
 }
 
 nav ul {
@@ -37,5 +38,5 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #555; /* Example hover background color */
+    background-color: #555; 
 }
