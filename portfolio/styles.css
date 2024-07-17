@@ -5,8 +5,8 @@
    flex-direction: column; 
    justify-content: center;
    padding: 20px;
-   line-height: 2em;
-   background-color: 	#e4d5b7;
+   line-height: .75em;
+   background-color: 	#d9b99b;
 }
 body {
     font-family: Arial, sans-serif; 
