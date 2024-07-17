@@ -8,10 +8,10 @@
 }
 
 .item {
-    background-color: #d9b99b;
+/*     background-color: #d9b99b; */
     padding: 20px;
     text-align: center;
-    border: 1px solid #ccc;
+    border: 2px solid black;
 }
 
 /* .container > div {
