@@ -10,6 +10,7 @@
 
 .conatiner p, .conatiner h1, .conatiner h2, .conatiner h3, .conatiner h4, .conatiner h5, .conatiner h6{
     margin-bottom: 3px;
+   margin-top:1 px;
 }
 
 body {
