@@ -6,7 +6,7 @@ section {
 }
 .container {
    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax3050px, 1fr)); 
     gap: 20px; 
     justify-items: center;
 }
@@ -37,6 +37,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #b6dcd8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
 }
 p, h1, h2, h3, h4, h5, h6{
     margin: 10px;
@@ -48,6 +54,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 100%;
 }
 
 .logo {
@@ -80,9 +87,10 @@ footer {
     color: white; 
     padding: 20px; 
     text-align: center; 
-    position: fixed;
+/*     position: fixed; */
     bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 
 .footer-content {
