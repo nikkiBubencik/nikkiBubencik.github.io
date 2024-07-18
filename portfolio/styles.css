@@ -103,7 +103,7 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -121,7 +121,7 @@ footer {
     margin-top: 10px;
 }
 
-icon {
+.icon {
    width: 32px; 
    height: auto;
 }
