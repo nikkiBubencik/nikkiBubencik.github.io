@@ -12,11 +12,15 @@ section {
 }
 
 .item {
-    background-color: #86c5bf;
+    background-color: #9ed1cb;
     padding: 20px;
     text-align: center;
 /*     border: 2px solid black; */
    border-radius: 10px;
+}
+
+.item:hover{
+   background-color: #86c5bf;
 }
 
 /* .container > div {
