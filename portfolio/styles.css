@@ -102,6 +102,26 @@ footer {
 }
 
 .footer-content {
-    max-width: 1200px; 
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons a {
+    margin: 0 10px;
+}
+
+.footer-download {
+    margin-top: 10px;
+}
+
+icon {
+   width: 32px; 
+   height: auto;
 }
