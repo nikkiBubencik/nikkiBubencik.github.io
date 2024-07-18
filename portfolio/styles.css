@@ -125,3 +125,8 @@ footer {
    width: 32px; 
    height: auto;
 }
+
+.project-link {
+   text-decoration: none;
+   color: black;
+}
