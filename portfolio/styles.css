@@ -1,5 +1,15 @@
 /* styles.css */
+.intro-container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
+@media (max-width: 768px) {
+    .intro-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 .coding-icons {
    width: 50px;
    height: auto;
