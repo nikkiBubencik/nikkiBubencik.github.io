@@ -4,6 +4,27 @@
    width: 40px;
    height: auto;
 }
+.image-description {
+    position: absolute;
+    bottom: 10px; /* Adjust position as needed */
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    visibility: hidden; /* Initially hidden */
+    opacity: 0; /* Initially transparent */
+    transition: visibility 0s, opacity 0.3s ease; /* Smooth transition */
+}
+.image-container {
+    position: relative;
+    width: 300px; /* Adjust size as needed */
+}
+.image-container:hover .image-description {
+    visibility: visible; /* Show on hover */
+    opacity: 1; /* Fully visible */
+}
 
 section {
    margin-bottom: 35px;
