@@ -23,6 +23,12 @@ section {
     gap: 20px; 
     justify-items: center;
 }
+.icon-container {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(43px, 1fr)); 
+    gap: 5px; 
+    justify-items: center;
+}
 
 .item {
     background-color: #9ed1cb;
