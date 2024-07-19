@@ -26,13 +26,14 @@
     <script type="text/python">
         // Load and run external Python script
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '../../python/Snake.py', true);
+        xhr.open('GET', '../python/Snake.py', true);
         xhr.onload = function() {
             var scriptText = xhr.responseText;
             Sk.importMainWithBody('<stdin>', false, scriptText);
         };
         xhr.send();
     </script>
+        <p> Description</p>
     </main>
   <footer>
             <div class="footer-content">
