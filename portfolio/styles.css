@@ -1,5 +1,10 @@
 /* styles.css */
 
+.coding-icons {
+   width: 40px;
+   height: auto;
+}
+
 section {
    margin-bottom: 35px;
    text-align: center;
