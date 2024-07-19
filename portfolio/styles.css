@@ -1,7 +1,7 @@
 /* styles.css */
 
 .coding-icons {
-   width: 40px;
+   width: 50px;
    height: auto;
 }
 .image-description {
@@ -120,6 +120,12 @@ nav li a {
 
 nav li a:hover {
     background-color: #555; 
+}
+.coding-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 5px
 }
 
 footer {
