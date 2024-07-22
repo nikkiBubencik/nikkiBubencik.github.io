@@ -20,7 +20,7 @@
 article {
   float: left;
   padding: 20px;
-  width: 60%;
+  width: 40%;
   text-align: left;
 }
 
@@ -60,6 +60,12 @@ section::after {
     .project-side {
       float: left;
       width: 100%;
+    }
+    article {
+      float: left;
+      padding: 20px;
+      width: 95%;
+      text-align: left;
     }
 }
 .coding-icons {
