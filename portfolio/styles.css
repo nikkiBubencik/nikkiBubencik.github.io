@@ -1,4 +1,20 @@
 /* styles.css */
+.project-img {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .intro-container {
     margin-left: 20%;
     margin-right: 20%;
