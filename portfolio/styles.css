@@ -1,4 +1,7 @@
 /* styles.css */
+.project-desc {
+  font-size: 30px;
+}
 .project-side {
   float: left;
   width: 35%;
