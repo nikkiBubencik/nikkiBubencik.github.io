@@ -4,21 +4,25 @@
   width: 35%;
   padding: 20px;
 }
-.projkect-img {
-  max:width: 90%
+
+.project-img {
+  max-width: 90%;
   height: auto;
   margin: 0 auto;
 }
+
 article {
   float: left;
   padding: 20px;
   width: 60%;
 }
+
 section::after {
   content: "";
   display: table;
   clear: both;
 }
+
 .intro-container {
     margin-left: 20%;
     margin-right: 20%;
