@@ -51,6 +51,10 @@ section::after {
         gap: 20px; 
         justify-items: center;
     }
+    .project-side {
+      float: left;
+      width: 100%;
+    }
 }
 .coding-icons {
    width: 50px;
