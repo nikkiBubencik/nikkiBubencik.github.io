@@ -1,10 +1,14 @@
 /* styles.css */
-.project-img {
+.project-side {
   float: left;
-  width: 40%;
+  width: 35%;
   padding: 20px;
 }
-
+.projkect-img {
+  max:width: 90%
+  height: auto;
+  margin: 0 auto;
+}
 article {
   float: left;
   padding: 20px;
