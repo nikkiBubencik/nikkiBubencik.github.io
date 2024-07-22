@@ -4,8 +4,12 @@
   width: 35%;
   padding: 20px;
 }
-iframe {
-  text-align: center;
+.iframe-container {
+    text-align: center; 
+}
+.iframe-container iframe {
+    display: block; 
+    margin: 0 auto; 
 }
 .project-img {
   max-width: 90%;
