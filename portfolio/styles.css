@@ -2,6 +2,13 @@
 .project-desc {
   font-size: 30px;
 }
+.work-container {
+   display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr)); 
+    gap: 20px; 
+    justify-items: center;
+}
+
 .project-side {
   float: left;
   width: 35%;
@@ -126,8 +133,7 @@ section {
     background-color: #9ed1cb;
     padding: 20px;
     text-align: center;
-/*     border: 2px solid black; */
-   border-radius: 10px;
+    border-radius: 10px;
 }
 
 .item:hover{
