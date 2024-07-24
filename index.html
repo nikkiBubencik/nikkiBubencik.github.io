@@ -4,9 +4,15 @@
     <title>Nikki's Programming Portfolio</title>
     <meta charset="utf-8">
     <style>
+        .container {
+           display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 20px; 
+            justify-items: center;
+        }
         a {
             font-size: 25;
-            text_decoration: none;
+            text-decoration: none;
         }
         #btn1 {
             font-size: 110%;
@@ -19,14 +25,19 @@
         }
         .item {
             background-color: skyblue;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <a href="portfolio/portfolio_index.html">
-        <div class="item">
-            <p></p>Programming Portfolio</p>
-        </div>
-    </a>
+    <div class="container">
+        <a href="portfolio/portfolio_index.html">
+            <div class="item">
+                <p></p>Programming Portfolio</p>
+            </div>
+        </a>
+    </div>
 </body>
 </html>
