@@ -2,6 +2,13 @@
 .project-desc {
   font-size: 30px;
 }
+.school-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 10px; 
+}
 .work-container {
    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
