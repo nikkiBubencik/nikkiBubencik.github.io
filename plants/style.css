@@ -16,3 +16,9 @@ body {
   background-color: #90EE90;
   color: black;
 }
+
+dt {
+  font-weight: bold;
+  margin-top: 5px;
+}
+  
